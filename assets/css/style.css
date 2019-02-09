@@ -120,3 +120,26 @@ display: flex;
   .headerContent .searchBarContainer .searchButton img{
     width:22px;
   }
+  .tabsContainer{
+    margin-left:150px;
+  }
+  .tabsContainer .tablist{
+    margin:0;
+    padding:0;
+  }
+  .tabsContainer .tablist li{
+    display:inline;
+    padding:0 16px 17px 16px;
+    color: #777;
+    font-size:13px;
+  }
+  .tabsContainer .tablist li a {
+    text-decoration:none;
+  }
+  .tabsContainer .tablist li.active{
+    border-bottom: 3px solid #1A73E8;
+  }
+  .tabsContainer .tablist li.active a{
+    color:#1A73E8;
+    font-weight: bold;
+  }
