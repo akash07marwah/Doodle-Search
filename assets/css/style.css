@@ -64,6 +64,7 @@ min-height: 100%;
 .header{
   background-color:#fafafa;
   border-bottom: 1px solid #ebebeb;
+      height: 160px;
 }
 .logoContainer{
   width:100px;
